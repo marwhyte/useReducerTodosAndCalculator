@@ -52,7 +52,7 @@ function Todos() {
       {todos.map((todo) => {
         return <Todo todo={todo} dispatch={dispatch} />;
       })}
-      <Link to="/useContext">Switch to class</Link>
+      <Link to="/calculator">Switch to class</Link>
     </div>
   );
 }

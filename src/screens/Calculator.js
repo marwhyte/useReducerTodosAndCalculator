@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Keypad from "../components/Keypad";
 import Result from "../components/Result";
+import { Link } from "react-router-dom";
 class Calculator extends Component {
   constructor() {
     super();
@@ -50,6 +51,7 @@ class Calculator extends Component {
         <h1>Calculator App</h1>
         <Keypad handleClick={this.handleClick} />
         <Result result={this.state.result} clear={this.state.clear} />
+        <Link to="/">Back to Todos</Link>
       </div>
     );
   }

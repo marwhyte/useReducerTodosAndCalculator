@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { ACTIONS } from "../screens/Todos";
 const Todo = (props) => {
   return (

@@ -1,8 +1,8 @@
-import React, { useState, useReducer } from "react";
+import React from "react";
 import Todos from "./screens/Todos";
 import Calculator from "./screens/Calculator";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 const App = () => {
   return (
     <div className="App">
