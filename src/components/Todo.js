@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ACTIONS } from "./App";
+import { ACTIONS } from "../screens/Todos";
 const Todo = (props) => {
   return (
     <div
